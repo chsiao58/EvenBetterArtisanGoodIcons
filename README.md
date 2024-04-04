@@ -1,6 +1,6 @@
-# Better Artisan Good Icons
+# Even Better Artisan Good Icons
 
-This newly updated mod will soon be uploaded to Nexus, before that you could download the mod at release page. The original mod (now outdated) can be found [here](http://www.nexusmods.com/stardewvalley/mods/2080?).
+This newly updated Better Artisan Good Icons mod will soon be uploaded to Nexus, before that you could download the mod at release page. The original mod (now outdated) can be found [here](http://www.nexusmods.com/stardewvalley/mods/2080?).
 
 
 ## How it works

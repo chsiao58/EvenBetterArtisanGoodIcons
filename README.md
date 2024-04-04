@@ -13,7 +13,7 @@ Note that this repo does not contain the Harmony dll.
 
 For the ease of maintaining this mod, the unique id of this mod was updated to **haze1nuts.betterartisangoodicons**.
 
-To use other content pack that is created for original BAGI along with this base mod, please replace the contant pack dependency from **cat.betterartisangoodicons** to **haze1nuts.betterartisangoodicons**, in the content pack's manifest.json for now.
+To use other content pack that is created for original BAGI along with this base mod, please replace the contant pack dependency from **cat.betterartisangoodicons** to **haze1nuts.betterartisangoodicons**, in the content pack's manifest.json.
 
 ## Future Update
 

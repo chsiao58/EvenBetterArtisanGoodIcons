@@ -9,16 +9,16 @@ The mod overwrites the corresponding draw functions for artisan goods using [Har
 
 Note that this repo does not contain the Harmony dll.
 
-# For user
+## For user
 
 For the ease of maintaining this mod, the unique id of this mod was updated to **haze1nuts.betterartisangoodicons**.
 
-To use other content pack that is created for original BAGI along with this base mod, please replace the contant pack dependency from cat.betterartisangoodicons to haze1nuts.betterartisangoodicons, in the content pack's manifest.json.
+To use other content pack that is created for original BAGI along with this base mod, please replace the contant pack dependency from **cat.betterartisangoodicons** to **haze1nuts.betterartisangoodicons**, in the content pack's manifest.json for now.
 
-# Future Update
+## Future Update
 
 Currently, this mod only update icons for Wine, Juice, Jelly, Pickle and Honey. It will support 1.6 goods like dried mushroom and dried fruit very soon!
 
-# Known issue
+#3 Known issue
 
 It seemed to collide with some mod that I have yet determined. Please report issue if you encountered any.

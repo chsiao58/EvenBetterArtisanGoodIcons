@@ -1,0 +1,10 @@
+﻿{
+  "Fruits": [ "Ancient Fruit", "Apple", "Apricot", "Blackberry", "Blueberry", "Cactus Fruit", "Cherry", "Coconut", "Cranberries", "Crystal Fruit", "Grape", "Hot Pepper", "Melon", "Orange", "Peach", "Pomegranate", "Rhubarb", "Salmonberry", "Spice Berry", "Starfruit", "Strawberry", "Wild Plum" ],
+  "Vegetables": [ "Amaranth", "Artichoke", "Beet", "Bok Choy", "Cauliflower", "Corn", "Eggplant", "Fiddlehead Fern", "Garlic", "Green Bean", "Hops", "Kale", "Parsnip", "Potato", "Pumpkin", "Radish", "Red Cabbage", "Tomato", "Wheat", "Yam" ],
+  "Flowers": [ "Blue Jazz", "Fairy Rose", "Poppy", "Summer Spangle", "Tulip", "Wild" ],
+  "Honey": "assets/honey.png",
+  "Jelly": "assets/jelly.png",
+  "Juice": "assets/juice.png",
+  "Pickles": "assets/pickles.png",
+  "Wine": "assets/wine.png"
+}

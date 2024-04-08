@@ -1,10 +1,10 @@
 ﻿{
   "Name": "Even Better Artisan Good Icons",
-  "Author": "haze1nuts, 58, Cat and MidnightChord",
-  "Version": "1.6.1",
-  "Description": "Makes jelly, pickles, wine, juice, and honey icons be based on the fruit, vegetable, or flower used to make them. Includes MidnightChord's additional icon fix.",
+  "Author": "Haze1nuts, 58 and Cat",
+  "Version": "1.6.2",
+  "Description": "Makes individual artisan goods icons be based on the source ingredient used to make them.",
   "UniqueID": "haze1nuts.evenbetterartisangoodicons",
-  "EntryDll": "BetterArtisanGoodIcons.dll",
+  "EntryDll": "EvenBetterArtisanGoodIcons.dll",
   "MinimumApiVersion": "4.0.0",
   "UpdateKeys": []
 }

@@ -1,6 +1,5 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using StardewModdingAPI;
 using StardewValley;
 using StardewValley.Objects;
 
@@ -17,7 +16,7 @@ namespace BetterArtisanGoodIcons.Patches.FurniturePatches
             if (x == -1)
             {
                 Vector2 drawPos = new Vector2(__instance.boundingBox.X, __instance.boundingBox.Y - (__instance.sourceRect.Height * Game1.pixelZoom - __instance.boundingBox.Value.Height));
-                spriteBatch.Draw(Game1.content.Load<Texture2D>(Furniture.furnitureTextureName), Game1.GlobalToLocal(Game1.viewport, drawPos), new Rectangle?(__instance.sourceRect.Value), Color.White * alpha, 0.0f, Vector2.Zero, (float)Game1.pixelZoom, __instance.Flipped ? SpriteEffects.FlipHorizontally : SpriteEffects.None, __instance.furniture_type.Value == 12 ? 0.0f : (__instance.boundingBox.Value.Bottom - 8) / 10000f);
+                spriteBatch.Draw(Game1.content.Load<Texture2D>(Furniture.furnitureTextureName), Game1.GlobalToLocal(Game1.viewport, drawPos), new Rectangle?(__instance.sourceRect.Value), Color.White * alpha, 0.0f, Vector2.Zero, Game1.pixelZoom, __instance.Flipped ? SpriteEffects.FlipHorizontally : SpriteEffects.None, __instance.furniture_type.Value == 12 ? 0.0f : (__instance.boundingBox.Value.Bottom - 8) / 10000f);
             }
             else
                 spriteBatch.Draw(Game1.content.Load<Texture2D>(Furniture.furnitureTextureName), Game1.GlobalToLocal(Game1.viewport, new Vector2(x * Game1.tileSize, y * Game1.tileSize - (__instance.sourceRect.Value.Height * Game1.pixelZoom - __instance.boundingBox.Value.Height))), new Rectangle?(__instance.sourceRect.Value), Color.White * alpha, 0.0f, Vector2.Zero, Game1.pixelZoom, __instance.Flipped ? SpriteEffects.FlipHorizontally : SpriteEffects.None, __instance.furniture_type.Value == 12 ? 0.0f : (__instance.boundingBox.Value.Bottom - 8) / 10000f);

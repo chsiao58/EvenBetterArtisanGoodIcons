@@ -7,6 +7,7 @@
         Pickles = 128,
         Wine = 123,
         Juice = 125,
+        DriedMushrooms = 66,
         Honey = 340         // Honey is still on springObject sheet and has a different index
     }
 

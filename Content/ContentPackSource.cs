@@ -12,17 +12,17 @@ namespace BetterArtisanGoodIcons.Content
         public ContentPackSource(IContentPack pack)
         {
             this.pack = pack;
-            this.TextureData = pack.ReadJsonFile<CustomTextureData>("data.json");
+            TextureData = pack.ReadJsonFile<CustomTextureData>("data.json");
         }
 
         public override T Load<T>(string path)
         {
-            return this.pack.ModContent.Load<T>(path);
+            return pack.ModContent.Load<T>(path);
         }
 
         public override IManifest GetManifest()
         {
-            return this.pack.Manifest;
+            return pack.Manifest;
         }
     }
 }

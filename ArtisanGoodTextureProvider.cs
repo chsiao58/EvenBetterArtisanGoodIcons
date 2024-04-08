@@ -2,6 +2,7 @@
 using Microsoft.Xna.Framework.Graphics;
 using StardewValley;
 using StardewValley.GameData.Objects;
+using StardewValley.ItemTypeDefinitions;
 using System.Collections.Generic;
 using SObject = StardewValley.Object;
 
@@ -89,15 +90,14 @@ namespace BetterArtisanGoodIcons
             if (!this.GetIndexOfSource(item, out string sourceIndex))
                 return false;
 
+            ParsedItemData source = ItemRegistry.GetDataOrErrorItem("(O)" + item.preservedParentSheetIndex.Value);
             //Get the name of the item from its index, and from that, a new sprite.
-            string sourceName = ItemRegistry.GetDataOrErrorItem("(O)" + item.preservedParentSheetIndex.Value).InternalName;
+            string sourceName = source.InternalName;
             if (!this.positions.TryGetValue(sourceName, out mainPosition))
                 return false;
 
             textureSheet = this.spriteSheet;
-            iconPosition = sourceIndex != null
-                ? Game1.getSourceRectForStandardTileSheet(Game1.objectSpriteSheet, int.Parse(sourceIndex), 16, 16)
-                : Rectangle.Empty;
+            iconPosition = sourceIndex != null ? source.GetSourceRect() : Rectangle.Empty;
             return true;
         }
     }

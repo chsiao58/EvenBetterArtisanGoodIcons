@@ -10,8 +10,6 @@ using StardewValley.Objects;
 namespace BetterArtisanGoodIcons
 {
     /// <summary>Draws different icons for different Artisan Good types.</summary>
-    /// <remarks>Honey does not save the original item in <see cref="StardewValley.Object.preservedParentSheetIndex"/> so we have to use its name to determine its type, resulting in
-    /// honey and non-honey versions of things.</remarks>
     public class BetterArtisanGoodIconsMod : Mod
     {
         /// <summary>The mod entry point, called after the mod is first loaded.</summary>
@@ -20,7 +18,7 @@ namespace BetterArtisanGoodIcons
         {
             ArtisanGoodsManager.Init(this.Helper, this.Monitor);
 
-            Harmony harmony = new Harmony("cat.betterartisangoodicons");
+            Harmony harmony = new Harmony("haze1nuts.evenbetterartisangoodicons");
 
             //Don't need to override draw for Object because artisan goods can't be placed down.
             Type objectType = typeof(ColoredObject);

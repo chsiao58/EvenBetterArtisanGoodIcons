@@ -15,20 +15,23 @@ namespace BetterArtisanGoodIcons.Content
         /// <summary>Group each texture path with its corresponding source list and artisan good type.</summary>
         public IEnumerable<Tuple<string, List<string>, ArtisanGood>> GetData()
         {
-            yield return new Tuple<string, List<string>, ArtisanGood>(this.TextureData.Honey,
-                this.TextureData.Flowers, ArtisanGood.Honey);
+            yield return new Tuple<string, List<string>, ArtisanGood>(TextureData.Honey,
+                TextureData.Flowers, ArtisanGood.Honey);
 
-            yield return new Tuple<string, List<string>, ArtisanGood>(this.TextureData.Juice,
-                this.TextureData.Vegetables, ArtisanGood.Juice);
+            yield return new Tuple<string, List<string>, ArtisanGood>(TextureData.Juice,
+                TextureData.Vegetables, ArtisanGood.Juice);
 
-            yield return new Tuple<string, List<string>, ArtisanGood>(this.TextureData.Pickles,
-                this.TextureData.Vegetables, ArtisanGood.Pickles);
+            yield return new Tuple<string, List<string>, ArtisanGood>(TextureData.Pickles,
+                TextureData.Vegetables, ArtisanGood.Pickles);
 
-            yield return new Tuple<string, List<string>, ArtisanGood>(this.TextureData.Wine,
-                this.TextureData.Fruits, ArtisanGood.Wine);
+            yield return new Tuple<string, List<string>, ArtisanGood>(TextureData.Wine,
+                TextureData.Fruits, ArtisanGood.Wine);
 
-            yield return new Tuple<string, List<string>, ArtisanGood>(this.TextureData.Jelly,
-                this.TextureData.Fruits, ArtisanGood.Jelly);
+            yield return new Tuple<string, List<string>, ArtisanGood>(TextureData.Jelly,
+                TextureData.Fruits, ArtisanGood.Jelly);
+
+            yield return new Tuple<string, List<string>, ArtisanGood>(TextureData.DriedMushrooms,
+                TextureData.Mushrooms, ArtisanGood.DriedMushrooms);
         }
     }
 }

@@ -17,8 +17,4 @@ To use other content pack that is created for original BAGI along with this base
 
 ## Future Update
 
-Currently, this mod only update icons for Wine, Juice, Jelly, Pickle and Honey. It will support 1.6 goods like dried mushroom and dried fruit very soon!
-
-#3 Known issue
-
-It seemed to collide with some mod that I have yet determined. Please report issue if you encountered any.
+Currently, this mod only update icons for Wine, Juice, Jelly, Pickle, Honey and Dried Mushrooms. It will support Dried Fruit very soon.

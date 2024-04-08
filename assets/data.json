@@ -1,10 +1,12 @@
 ﻿{
-  "Fruits": [ "Ancient Fruit", "Apple", "Apricot", "Blackberry", "Blueberry", "Cactus Fruit", "Cherry", "Coconut", "Cranberries", "Crystal Fruit", "Grape", "Hot Pepper", "Melon", "Orange", "Peach", "Pomegranate", "Rhubarb", "Salmonberry", "Spice Berry", "Starfruit", "Strawberry", "Wild Plum", "Banana", "Pineapple", "Mango" ],
-  "Vegetables": [ "Amaranth", "Artichoke", "Beet", "Bok Choy", "Cauliflower", "Corn", "Eggplant", "Fiddlehead Fern", "Garlic", "Green Bean", "Hops", "Kale", "Parsnip", "Potato", "Pumpkin", "Radish", "Red Cabbage", "Tomato", "Wheat", "Yam", "Ginger", "Taro Root", "Tea Leaves", "Unmilled Rice" ],
+  "Fruits": [ "Ancient Fruit", "Apple", "Apricot", "Blackberry", "Blueberry", "Cactus Fruit", "Cherry", "Coconut", "Cranberries", "Crystal Fruit", "Grape", "Hot Pepper", "Melon", "Orange", "Peach", "Pomegranate", "Rhubarb", "Salmonberry", "Spice Berry", "Starfruit", "Strawberry", "Wild Plum", "Banana", "Pineapple", "Mango", "Qi Fruit", "Powdermelon" ],
+  "Vegetables": [ "Amaranth", "Artichoke", "Beet", "Bok Choy", "Cauliflower", "Corn", "Eggplant", "Fiddlehead Fern", "Garlic", "Green Bean", "Hops", "Kale", "Parsnip", "Potato", "Pumpkin", "Radish", "Red Cabbage", "Tomato", "Wheat", "Yam", "Ginger", "Taro Root", "Tea Leaves", "Unmilled Rice", "Carrot", "Summer Squash", "Broccoli" ],
   "Flowers": [ "Blue Jazz", "Fairy Rose", "Poppy", "Summer Spangle", "Tulip", "Wild" ],
+  "Mushrooms": [ "Common Mushroom", "Morel", "Chanterelle", "Purple Mushroom", "Magma Cap" ],
   "Honey": "assets/honey.png",
   "Jelly": "assets/jelly.png",
   "Juice": "assets/juice.png",
   "Pickles": "assets/pickles.png",
-  "Wine": "assets/wine.png"
+  "Wine": "assets/wine.png",
+  "DriedMushrooms": "assets/driedMushrooms.png"
 }

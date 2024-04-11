@@ -27,7 +27,7 @@ namespace BetterArtisanGoodIcons.Patches.SObjectPatches
                 if (source.SpriteIndex >= 80 && source.SpriteIndex <= 83)
                     textureSheet = Game1.objectSpriteSheet_2;
                 
-                spriteBatch.Draw(textureSheet, location + new Vector2(Game1.tileSize / 6 * scaleSize, Game1.tileSize / 6 * scaleSize), new Microsoft.Xna.Framework.Rectangle?(iconPosition), Color.White * transparency, 0.0f, new Vector2(4f, 4f), (3f / 2f) * scaleSize, SpriteEffects.None, layerDepth);
+                spriteBatch.Draw(source.GetTexture(), location + new Vector2(Game1.tileSize / 6 * scaleSize, Game1.tileSize / 6 * scaleSize), new Microsoft.Xna.Framework.Rectangle?(iconPosition), Color.White * transparency, 0.0f, new Vector2(4f, 4f), (3f / 2f) * scaleSize, SpriteEffects.None, layerDepth);
             }
             if (drawStackNumber && __instance.maximumStackSize() > 1 && (scaleSize > 0.3 && __instance.Stack != int.MaxValue) && __instance.Stack > 1)
                 Utility.drawTinyDigits(__instance.Stack, spriteBatch, location + new Vector2(Game1.tileSize - Utility.getWidthOfTinyDigitString(__instance.Stack, 3f * scaleSize) + 3f * scaleSize, (float)(Game1.tileSize - 18.0 * scaleSize + 2.0)), 3f * scaleSize, 1f, Color.White);

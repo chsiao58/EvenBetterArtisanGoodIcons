@@ -21,11 +21,7 @@ namespace BetterArtisanGoodIcons.Patches.SObjectPatches
 
             //By popular demand, don't show icons near the mouse cursor, which are drawn with lowered transparency.
             if (transparency >= 1 && iconPosition != Rectangle.Empty) {
-                Texture2D textureSheet = Game1.objectSpriteSheet;
-                // use object_2 spritesheet if it's 1.6 crops
                 ParsedItemData source = ItemRegistry.GetDataOrErrorItem("(O)" + __instance.preservedParentSheetIndex.Value);
-                if (source.SpriteIndex >= 80 && source.SpriteIndex <= 83)
-                    textureSheet = Game1.objectSpriteSheet_2;
                 
                 spriteBatch.Draw(source.GetTexture(), location + new Vector2(Game1.tileSize / 6 * scaleSize, Game1.tileSize / 6 * scaleSize), new Microsoft.Xna.Framework.Rectangle?(iconPosition), Color.White * transparency, 0.0f, new Vector2(4f, 4f), (3f / 2f) * scaleSize, SpriteEffects.None, layerDepth);
             }

@@ -1,10 +1,10 @@
 ﻿{
   "Name": "Even Better Artisan Good Icons",
   "Author": "Haze1nuts, 58 and Cat",
-  "Version": "1.6.4",
+  "Version": "1.6.5",
   "Description": "Makes individual artisan goods icons be based on the source ingredient used to make them.",
   "UniqueID": "haze1nuts.evenbetterartisangoodicons",
   "EntryDll": "EvenBetterArtisanGoodIcons.dll",
   "MinimumApiVersion": "4.0.0",
-  "UpdateKeys": [ "GitHub:chsiao58/EvenBetterArtisanGoodIcons", "Nexus:22144" ]
+  "UpdateKeys": [ "GitHub:chsiao58/EvenBetterArtisanGoodIcons" ]
 }

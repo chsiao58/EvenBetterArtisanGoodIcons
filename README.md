@@ -17,4 +17,10 @@ To use other content pack that is created for original BAGI along with this base
 
 ## Future Update
 
-Currently, this mod only update icons for Wine, Juice, Jelly, Pickle, Honey and Dried Mushrooms. It will support Dried Fruit very soon.
+* Combability fix for mods that add new base ingredients.
+* Wild Honey and Sunflower Honey fix
+* Adding Dried Fruits
+* Generic Mod Config Menu support
+* Mod optimization
+* Code support for Aged Roe
+
